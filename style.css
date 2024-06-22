@@ -1,0 +1,145 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c3d0dc;
+    color: #333;
+    padding-top: 56px; /* Adjust for fixed navbar */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: #f8f9fa !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 1.5rem;
+    background-color: #d6c5c5;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #130e0e;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: bold;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Form Styles */
+.form-group label {
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control, .form-control-file {
+    border-radius: 5px;
+    border: 1px solid #ad9595;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus, .form-control-file:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary {
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Custom Container Padding */
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Accordion Styles */
+.card-header button {
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.card-header button:focus {
+    outline: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+    
+    .card-title {
+        font-size: 1.25rem;
+    }
+    
+    .card-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+}
